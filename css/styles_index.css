@@ -2,8 +2,8 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fadef3;
-    color: #333;
+    background-color: #f406b9;
+    color: #fdfdfd;
 }
 
 .container {
@@ -18,15 +18,24 @@ body {
 header {
     background: transparent;
     backdrop-filter: blur(20px);
-    border: 2px solid #d9534f;
+    border: 2px solid #ec918e;
 }
 
-header h1 {
-    font-size: 2.5em;
-    color: #d9534f;
+.Carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
 }
 
-header p {
-    font-size: 1.2em;
-    color: #5a5a5a;
+.imgref{
+    width: 300px;
+    height: 300px;
+}
+
+.Elemento{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: #ff1111;
+    width: 300px;
+    height: 300px;
 }
